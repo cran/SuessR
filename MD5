@@ -1,0 +1,11 @@
+9929645ad33be16bf369b411897d353e *DESCRIPTION
+f423283afacde93d626eac73e4299a73 *LICENSE
+54f42e76b2ea40a001115d993fc44c49 *NAMESPACE
+18f838e5ebfefde9af39506fd6458978 *R/SuessR_Package.R
+b9e074f1a05eeddfed7239b67af39d6f *R/SuessR_Reference_Data.R
+f29845f2f877f5d680c81feb4000813e *data/SuessR_Reference_Data.RData
+05f5c39b9ced0bcd19b906a840b14af5 *man/SuessR.Rd
+b342c3b3e7873db5209478fdb83d5407 *man/SuessR.custom.Rd
+49880ed5aebfb76f1d146e69ecf7f832 *man/SuessR.reference.data.Rd
+7be00487c9d19d745f185d14de327571 *man/figures/Built-in-regions.png
+6a7f09f8f21e5f665e266b8ed7b51a5b *man/reg.uptake.Rd

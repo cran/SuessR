@@ -3,10 +3,10 @@
 #' A dataset containing the information used by SuessR to calculate regional Suess and Laws corrections
 #' for \ifelse{html}{\out{&delta;<sup>13</sup>}}{\eqn{{\delta}^{13}}}C from marine organisms.
 #'
-#' @format A data frame with 680 rows and 8 variables:
+#' @format A data frame with 688 rows and 8 variables:
 #' \describe{
-#'     \item{year}{calendar year, 1850-2020}
-#'     \item{region}{geographic region, Aleutians, Bering, Gulf of Alaska, or Subpolar North Pacific}
+#'     \item{year}{calendar year, 1850-2021}
+#'     \item{region}{geographic region, 'Aleutian Islands', 'Bering Sea', 'Gulf of Alaska', or 'Subpolar North Atlantic'}
 #'     \item{r}{average cell radius of phytoplankton community, in microns}
 #'     \item{sst}{yearly average sea surface temperature, in degrees C}
 #'     \item{sss}{yearly average sea surface salinity, in practical salinity units}
@@ -15,7 +15,7 @@
 #'     \item{Cp}{Proportional change constant of oceanic/atmospheric CO\ifelse{html}{\out{<sub>2</sub>}}{\eqn{_2}} (regional), a proportion}
 #'     }
 #'
-#' @source \url{https://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v5}\cr
+#' @source \url{https://psl.noaa.gov/data/gridded/data.noaa.ersst.v5.html}\cr
 #'
 #' \url{https://iridl.ldeo.columbia.edu/SOURCES/.CARTON-GIESE/.SODA/.v2p2p4/?Set-Language=en}\cr
 #'
@@ -23,8 +23,9 @@
 #'
 #' \url{https://scrippsco2.ucsd.edu/data/atmospheric_co2/icecore_merged_products.html}\cr
 #'
-#' @references Clark, C.T., M.R. Cape, M.D. Shapley, F.J. Mueter, B.P. Finney, and N. Misarti. (In Prep) SuessR: Regional Suess
-#'   and Laws corrections for \ifelse{html}{\out{&delta;<sup>13</sup>}}{\eqn{{\delta}^{13}}}C from marine organisms.\cr
+#' @references Clark, C.T., M.R. Cape, M.D. Shapley, F.J. Mueter, B.P. Finney, and N. Misarti. (2021) SuessR: Regional Suess
+#'   and Laws corrections for \ifelse{html}{\out{&delta;<sup>13</sup>}}{\eqn{{\delta}^{13}}}C from marine organisms. Methods
+#'    in Ecology and Evolution. 12(8), 1508-1520.\cr
 #'
 #' Huang, B., Thorne, P. W., Banzon, V. F., Boyer, T., Chepurin, G., Lawrimore, J. H., … Zhang, H.-M. (2017).
 #'   NOAA extended reconstructed sea surface temperature (ERSST), version 5. doi:10.7289/V5T72FNM.\cr

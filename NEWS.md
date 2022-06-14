@@ -1,3 +1,7 @@
+# SuessR 0.1.4
+
+* Package now corrects data through 2021
+
 # SuessR 0.1.3
 
 * Corrected error in the SuessRReferenceData file introduced 

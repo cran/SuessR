@@ -3,9 +3,9 @@
 #' A dataset containing the information used by SuessR to calculate regional Suess and Laws corrections
 #' for \ifelse{html}{\out{&delta;<sup>13</sup>}}{\eqn{{\delta}^{13}}}C from marine organisms.
 #'
-#' @format A data frame with 688 rows and 8 variables:
+#' @format A data frame with 692 rows and 8 variables:
 #' \describe{
-#'     \item{year}{calendar year, 1850-2021}
+#'     \item{year}{calendar year, 1850-2022}
 #'     \item{region}{geographic region, 'Aleutian Islands', 'Bering Sea', 'Gulf of Alaska', or 'Subpolar North Atlantic'}
 #'     \item{r}{average cell radius of phytoplankton community, in microns}
 #'     \item{sst}{yearly average sea surface temperature, in degrees C}

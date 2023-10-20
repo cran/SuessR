@@ -28,12 +28,12 @@ The output of this function is a data frame that includes the sample ID ('id'), 
 The SuessR.custom() function generates region-specific Suess, Laws, and net (Suess + Laws) corrections for
   \ifelse{html}{\out{&delta;<sup>13</sup>}}{\eqn{{\delta}^{13}}}C data input by the user. The net correction is then used to calculate the corrected \ifelse{html}{\out{&delta;<sup>13</sup>}}{\eqn{{\delta}^{13}}}C data,
   which are supplied in the output. This function is specifically for data from regions not currently built into SuessR
-  (i.e., different from "Bering Sea", "Aleutian Islands", "Gulf of Alaska", and "Subpolar North Atlantic", as of Version 0.1.4). Or
+  (i.e., different from "Bering Sea", "Aleutian Islands", "Gulf of Alaska", and "Subpolar North Atlantic", as of Version 0.1.5). Or
   for scenarios in which users want to change the default parameters used by SuessR for the built-in regions (e.g., averge phytoplankton cell radius).
 }
 \details{
 The SuessR.custom() allows users to calculate and apply Suess and Laws corrections to \ifelse{html}{\out{&delta;<sup>13</sup>}}{\eqn{{\delta}^{13}}}C data from marine
-  organisms collected in a region not currently built into the SuessR package. In Version 0.1.4, the
+  organisms collected in a region not currently built into the SuessR package. In Version 0.1.5, the
   built-in regions are the Bering Sea ('Bering Sea'), the Aleutian archipelago ('Aleutian Islands'), and the Gulf of Alaska ('Gulf of
   Alaska'). Because the Suess and Laws corrections require region-specific environmental data from 1850-present, users must
   supply these data using the 'custom.region.data' argument. Once these data have been supplied, this function calculates
@@ -55,14 +55,14 @@ As with the SuessR() function, SuessR.custom() allows users to correct their dat
   presentation of both uncorrected and corrected data so future users can repeat analyses or correct the raw data to another year).
 }
 \examples{
-example.region.data <- data.frame(year = seq(from = 1850, to = 2021, by = 1),
-                                  region = rep("Example Region", 172),
-                                  r = rep(5, 172),
-                                  sst = seq(5.9, 6.6, 172),
-                                  sss = seq(32.3, 32.7, 172),
-                                  CO2atm = SuessR.reference.data$CO2atm,
-                                  up.con = rep(0.014, 172),
-                                  Cp = rep(0.41, 172))
+example.region.data <- data.frame(year = seq(from = 1850, to = 2022, by = 1),
+                                  region = rep("Example Region", 173),
+                                  r = rep(5, 173),
+                                  sst = seq(5.9, 6.6, 173),
+                                  sss = seq(32.3, 32.7, 173),
+                                  CO2atm = SuessR.reference.data$CO2atm[1:173],
+                                  up.con = rep(0.014, 173),
+                                  Cp = rep(0.41, 173))
 
 example.custom.data <- data.frame(id = c("Sample 1", "Sample 2",
                                          "Sample 3", "Sample 4"),

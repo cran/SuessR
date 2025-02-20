@@ -3,9 +3,9 @@
 #' A dataset containing the information used by SuessR to calculate regional Suess and Laws corrections
 #' for \ifelse{html}{\out{&delta;<sup>13</sup>}}{\eqn{{\delta}^{13}}}C from marine organisms.
 #'
-#' @format A data frame with 692 rows and 8 variables:
+#' @format A data frame with 696 rows and 8 variables:
 #' \describe{
-#'     \item{year}{calendar year, 1850-2022}
+#'     \item{year}{calendar year, 1850-2024}
 #'     \item{region}{geographic region, 'Aleutian Islands', 'Bering Sea', 'Gulf of Alaska', or 'Subpolar North Atlantic'}
 #'     \item{r}{average cell radius of phytoplankton community, in microns}
 #'     \item{sst}{yearly average sea surface temperature, in degrees C}
@@ -17,7 +17,7 @@
 #'
 #' @source \url{https://psl.noaa.gov/data/gridded/data.noaa.ersst.v5.html}\cr
 #'
-#' \url{https://iridl.ldeo.columbia.edu/SOURCES/.CARTON-GIESE/.SODA/.v2p2p4/?Set-Language=en}\cr
+#' \url{https://catalog.data.gov/dataset/soda-pop-2-2-4-monthly-means-1871-2010-at-depths}\cr
 #'
 #' \url{https://coastwatch.noaa.gov/cw/satellite-data-products/sea-surface-salinity/miras-smos.html}\cr
 #'

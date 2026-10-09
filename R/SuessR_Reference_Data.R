@@ -5,7 +5,7 @@
 #'
 #' @format A data frame with 696 rows and 8 variables:
 #' \describe{
-#'     \item{year}{calendar year, 1850-2024}
+#'     \item{year}{calendar year, 1850-2025}
 #'     \item{region}{geographic region, 'Aleutian Islands', 'Bering Sea', 'Gulf of Alaska', or 'Subpolar North Atlantic'}
 #'     \item{r}{average cell radius of phytoplankton community, in microns}
 #'     \item{sst}{yearly average sea surface temperature, in degrees C}
@@ -21,7 +21,7 @@
 #'
 #' \url{https://coastwatch.noaa.gov/cw/satellite-data-products/sea-surface-salinity/miras-smos.html}\cr
 #'
-#' \url{https://scrippsco2.ucsd.edu/data/atmospheric_co2/icecore_merged_products.html}\cr
+#' \url{https://scrippsco2.ucsd.edu/data/atmospheric-co2-data/ice-core-merged-products/}\cr
 #'
 #' @references Clark, C.T., M.R. Cape, M.D. Shapley, F.J. Mueter, B.P. Finney, and N. Misarti. (2021) SuessR: Regional Suess
 #'   and Laws corrections for \ifelse{html}{\out{&delta;<sup>13</sup>}}{\eqn{{\delta}^{13}}}C from marine organisms. Methods

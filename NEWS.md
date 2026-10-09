@@ -1,3 +1,8 @@
+# SuessR 0.1.7
+
+* Package now corrects data through 2025
+
+
 # SuessR 0.1.6
 
 * Package now corrects data through 2023

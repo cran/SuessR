@@ -7,7 +7,7 @@
 \format{
 A data frame with 696 rows and 8 variables:
 \describe{
-    \item{year}{calendar year, 1850-2024}
+    \item{year}{calendar year, 1850-2025}
     \item{region}{geographic region, 'Aleutian Islands', 'Bering Sea', 'Gulf of Alaska', or 'Subpolar North Atlantic'}
     \item{r}{average cell radius of phytoplankton community, in microns}
     \item{sst}{yearly average sea surface temperature, in degrees C}
@@ -24,7 +24,7 @@ A data frame with 696 rows and 8 variables:
 
 \url{https://coastwatch.noaa.gov/cw/satellite-data-products/sea-surface-salinity/miras-smos.html}\cr
 
-\url{https://scrippsco2.ucsd.edu/data/atmospheric_co2/icecore_merged_products.html}\cr
+\url{https://scrippsco2.ucsd.edu/data/atmospheric-co2-data/ice-core-merged-products/}\cr
 }
 \usage{
 SuessR.reference.data
